@@ -1,6 +1,6 @@
+import { inngest } from "@/lib/inngest/client";//C:\Users\raiye\Desktop\Project\ai-finance-platform\lib\inngest\client.js
 import { serve } from "inngest/next";
 
-import { inngest } from "@/lib/inngest/client";
 import {
   checkBudgetAlerts,
   generateMonthlyReports,
@@ -17,3 +17,4 @@ export const { GET, POST, PUT } = serve({
     checkBudgetAlerts,
   ],
 });
+

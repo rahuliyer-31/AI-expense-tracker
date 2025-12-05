@@ -56,10 +56,15 @@ export const featuresData = [
     title: "Multi-Currency",
     description: "Support for multiple currencies with real-time conversion",
   },
+  // {
+  //   icon: <Zap className="h-8 w-8 text-blue-600" />,
+  //   title: "Automated Insights",
+  //   description: "Get automated financial insights and recommendations",
+  // },
   {
     icon: <Zap className="h-8 w-8 text-blue-600" />,
-    title: "Automated Insights",
-    description: "Get automated financial insights and recommendations",
+    title: "AI-powered chatbot extension",
+    description: "Ai-powered chatbot extension to assist you in managing your finances",
   },
 ];
 
@@ -77,11 +82,17 @@ export const howItWorksData = [
     description:
       "Automatically categorize and track your transactions in real-time",
   },
+  // {
+  //   icon: <PieChart className="h-8 w-8 text-blue-600" />,
+  //   title: "3. Get Insights",
+  //   description:
+  //     "Receive AI-powered insights and recommendations to optimize your finances",
+  // },
   {
     icon: <PieChart className="h-8 w-8 text-blue-600" />,
-    title: "3. Get Insights",
+    title: "3. AI powered Receipt Scanning",
     description:
-      "Receive AI-powered insights and recommendations to optimize your finances",
+      "Easily scan and extract data from receipts using our AI-powered scanner",
   },
 ];
 
